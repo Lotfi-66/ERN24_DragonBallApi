@@ -1,0 +1,81 @@
+/* styles.css */
+
+/* @font-face rule to define the custom font */
+@font-face {
+  font-family: 'font-dragon';
+  src: url('../fonts/Saiyan-Sans.ttf') format('truetype');
+}
+
+/* Universal selector to reset margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container to center content */
+.container {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Full viewport height */
+
+}
+
+/* Font style for dragon font text */
+.font-dragon {
+  font-family: 'font-dragon';
+  font-size: 5em;
+  color: #ff0000;
+  -webkit-text-stroke: 6px black;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px #0f0b09, 0 0 20px #000000, 0 0 40px #030202, 0 0 80px #000000, 0 0 120px #6f00ff, 0 0 200px #080504;
+}
+
+h1{
+  text-align: center;
+}
+/* Additional color classes if needed */
+.yellow {
+  color: 
+  rgb(251, 220, 8);
+}
+
+.orange {
+  color: 
+  rgb(247, 150, 25);
+}
+
+.custom-card {
+  background-color: #3C3D44;
+}
+
+.custom-image {
+  background-image: url('../BACKGROUNDBZ.webp');
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 300px !important;
+  object-fit: contain !important;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  gap: 10px;
+  background-color:rgb(39, 43, 51);
+}
+
+.btn-primary{
+  color: ;
+  background: none !important;
+  border: none !important;
+}
