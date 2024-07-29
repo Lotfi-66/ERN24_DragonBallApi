@@ -75,7 +75,10 @@ h1{
 }
 
 .btn-primary{
-  color: ;
   background: none !important;
   border: none !important;
+}
+
+.on{
+  display: none;
 }
